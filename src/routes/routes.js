@@ -1,0 +1,20 @@
+const {Router} = require("express")
+const {usersPost,usersGetBYid, allUsers, putUsers, deleteUsers} = require("../controller/users.js")
+const{postBook,allBooks,deleteBooks,putBooks,booksGetBYid} = require("../controller/books.js")
+const {PostRegister,PostLogin} = require("../controller/auth.js")
+const router = Router()
+
+router.post("/admin/add", usersPost)
+.get("/allusers/:id",usersGetBYid)
+.get("/allusers",allUsers)
+.put("/admin/:id",putUsers)
+.delete("/admin/:id",deleteUsers)
+.post("/book/add",postBook)
+.delete("/admin/book/:id",deleteBooks)
+.get("/allbook/:id",booksGetBYid)
+.get("/allbooks",allBooks)
+.put("/admin/book/:id",putBooks)
+.post("/register", PostRegister)
+.post("/login",PostLogin)
+
+module.exports = {router}

@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Adham",
+        "isAdmin": false,
+        "isDelete": true,
+        "status": 4000,
+        "money": 12
+    },
+    {
+        "id": 2,
+        "name": "Sherali",
+        "isAdmin": false,
+        "isDelete": false,
+        "status": 4000,
+        "money": 2400,
+        "age": 24
+    },
+    {
+        "id": 3,
+        "name": "Sherbek",
+        "isAdmin": false,
+        "isDelete": true,
+        "status": 4000,
+        "money": 11
+    },
+    {
+        "id": 4,
+        "name": "Xoshimm",
+        "isAdmin": false,
+        "isDelete": false,
+        "status": 2400,
+        "money": 2400,
+        "age": 24
+    }
+]

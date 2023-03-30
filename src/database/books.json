@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "mmmmm",
+        "price": "23000",
+        "count": "400",
+        "about": "hey hey",
+        "author": "Terminator",
+        "isDelete": false,
+        "user": false,
+        "ImageLink": "C:\\code.uz7\\dars5\\homework5\"upload\"MandevAvatar.jpg.jpeg"
+    }
+]
